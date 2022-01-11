@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Offer Time Section Style Start */
+.offer-time-section{
+    background-color: #eceb98;
+    height: 80px;
+    text-align: center;
+}
+.offer-time-text{
+    width: 99%;
+margin-top: 12px;
+    
+}
+.offer-time-text p strong{
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+.offer-time-section p{
+    font-size: 1rem;
+    color: #606060;
+}
+.offer-time-section strong{
+    font-weight: 600;
+    padding-right: 5px;
+}
+.offer-time-text a{
+    color: #606060;
+}
+.offer-time-section span{
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 0;
+   position: relative;
+   top: -15px;
+}
+.cross-btn{
+width: 1%;
+font-size: 20px;
+text-align: right;
+margin-right: -20px;
+position: relative;
+left: 110px;
+top: 10px;
+}
+/* Offer Time Section Style End */
+
+
+
+/* Menubar Section Style Start */
+ .main-header{
+     background-color: #fff;
+     height: 80px;
+ }
+.nav-item{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #333131;
+ 
+}
+.nav-item input{
+    width: 480px;
+    padding: 13px 50px;
+    border-radius: 20px;
+    border: 1px solid;
+    background-color: transparent; 
+} 
+.nav-item input::before{
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    color: #e41515;
+}
+.nav-item input.click{
+    border: 1px solid;
+    box-shadow: none;
+}
+/* .nav-item input::after{
+    content: ;
+    font-family: ;
+    position: absolute;
+} */
+
+ .log-in-btn a{
+  border: 1px solid black;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+ }
+ .log-in-btn a:hover{
+    color: #fff;
+    background-color: #111;
+}
+ .border-icon{
+   border: 1px solid black;
+   padding: 10px 12px 8px 12px;
+   margin-top: -1px;
+ }
+ .logo{
+     width: 100px;
+     margin-top: -7px;
+     margin-left: 15px;
+     
+ }
+
+ /* Menubar Section Style End */
+
+
+
+/* Slider Section Style Start */
+.carousel-inner{
+    position: relative;
+}
+ .box{
+     width: 420px;
+     height: 200px;
+     border: 1px solid tr;
+     position: absolute;
+     left: 70px;
+     top: 63px;
+     background-color: #fff;
+     color: black;
+     padding: 25px;
+ }
+ .prev-next-icon{
+     border: 1px solid black;
+     border-radius: 50%;
+     color: #fff;
+     background-color: rgba(0, 0, 0, 0.815);
+ }
+ .carousel-control-prev{
+     margin-left: -63px;
+ }
+ .carousel-control-next{
+    margin-right: -45px;
+}
+ /* Slider Section Style End */
+
+
+
+ /* Broad Section Style Start */
+ .broad-section{
+     padding: 50px 0;
+ }
+ .broad-title{
+     margin-left: 18px;
+ }
+ .broad-title h2{
+     font-weight: 700;
+     font-size: 33px;
+ }
+ .broad-title p{
+     font-weight: 400;
+ }
+ .courses-tab-sec ul li a{
+color: #606060;
+font-weight: 700;
+margin-top: -10px;
+ }
+ .courses-tab-sec ul li a:hover{
+     color: black;
+ }
+ .broad-tab-content{
+     margin-top: 5px;
+     margin-left: 22px;
+ }
+ .broad-tab-content h4{
+     font-weight: 700;
+ }
+ .broad-tab-content p{
+     margin-bottom: 20px;
+ }
+ .broad-tab-content a{
+     text-decoration: none;
+     color: black;
+     border: 1px solid black;
+     padding: 10px;
+     font-weight: 700;
+ }
+ .broad-tab-content a:hover{
+    background-color: #c9cdd1; 
+ }
+ .courses-tab-sec .navlink.active{
+     color: black;
+ }
+ .tab-content{
+    border: 1px solid black;
+    margin-left: 26px;
+    width: 1210px;
+    padding: 30px 14px 35px 14px;
+    margin-top: -12px;
+ }
+  /* Broad Section Style End */
+
+
+
+  /* Course-1 5 style Start */
+.course-item img{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+ 
+.all{
+    margin-left: 20px;
+    margin-top: 45px;
+}
+  .course-item img{
+    width: 89%;
+  }
+  .course-item{
+      margin-right: -10px;
+  }
+  .course-item ul li{
+    list-style: none;
+    display: inline-block;
+}
+.course-item ul{
+    margin-left: -30px;
+}
+.course-item ul li i{
+    font-size: 10px;
+    color: #e59819;
+}
+.name-span{
+    color: #606060;
+    font-size: 13px;
+}
+.price-span{
+    margin-top: -10px;
+    font-weight: 500;
+}
+.seller-span{
+  margin-top: 5px;
+}
+.seller-span a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    background-color: #eae72a;
+    padding: 5px;
+    font-size: 13px;
+   
+}
+del{
+    font-weight: normal;
+    color: #606060;
+}
+/* Course-1 5 style End */
+
+/* Course-1 5 style Start */
+.all-2-h h4{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.all-2{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.course-2-heading h4{
+    font-weight: 700;
+}
+/* Course-1 5 style End */
+
+
+
+
+/* Catagory Section Style Start */
+.cat-section{
+    padding: 60px 0;
+}
+.cat-heading{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.cat-item{
+    padding: 15px;
+}
+.cat-item span{
+    font-weight: 700;
+    color: black;
+   
+}
+.cat-item img{
+    width: 114%;
+    margin-bottom: 10px;
+}
+.cat-section2{
+  margin-top: -30px;
+}
+/* Catagory Section Style Start */
+
+
+
+/* .featured-topics Section Style Start */
+.featured-topics{
+    margin-top: 50px;
+    background-color: #f8f9fb;
+    margin-left: 12px;
+    padding: 20px 0 40px 0;
+}
+.topics-heading{
+  position: relative;
+  top: 50px;
+  font-weight: 700;
+}
+.featured-topics h5{
+    color: #1c1d1f;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.featured-topics span{
+    font-weight: 600;
+}
+.featured-topics span a{
+    color: #602ed0;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.featured-topics p{
+    color: #606060;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.course-name a{
+    font-weight: 700 !important;
+    font-size: 16px;
+}
+
+.more-topics-btn{
+    margin-top: 30px;
+}
+.more-topics-btn a{
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 7px 10px;
+    font-size: 16px;
+    color: #602ed0;
+}
+.more-topics-btn a:hover{
+    background-color: #cacfd6;
+}
+/* .featured-topics Section Style Start */
+
+
+
+/* Become Instr Section Style Start */
+.become-instr{
+    padding: 70px;
+    height: 450px;
+}
+.become-instr-img{
+    margin-right: 20px;
+}
+.become-instr-img img{
+    width: 100%;
+ 
+}
+.become-instr-content{
+    margin: auto;
+    margin-left: 20px;
+}
+.become-instr-content h2{
+    font-weight: 700;
+}
+.become-instr-content p{
+    font-size: 19px;
+    margin-bottom: 30px;
+    width: 395px;
+}
+
+.become-instr-content a{
+    text-decoration: none;
+   background-color: black;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+  
+}
+/* Become Instr Section Style End */
+
+
+
+/* Companies Section Section Style Start */
+.companies-section{
+    margin-top: 120px;
+    text-align: center;
+    background-color: #f8f9fb;
+    padding: 30px 30px 20px 30px;
+}
+.companies-section h3{
+    font-weight: 700;
+
+}
+.companies-logo{}
+.companies-logo ul{}
+.companies-logo ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.companies-logo ul li a{
+    padding: 20px;
+}
+/* companies-section Section Style End */
+
+
+.udemy-b-img{
+    width: 300px;
+    margin-top: 100px;
+}
+
+
+
+/* become-instr-3 start */
+.become-instr-3{
+    margin-top: 60px;
+}
+/* become-instr-3 end */
+
+
+
+/* Footer Section Start */
+.footer-section{
+    padding: 40px 0;
+    margin-top: 120px;
+    background-color: #1c1d1f;
+}
+.footer-list{
+    margin-left: 5px;
+    margin-top: -14px;
+}
+.footer-list ul{}
+.footer-list ul li{
+    list-style: none;
+    margin-right: -5px;
+}
+.footer-list ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-list ul li a:hover{
+    text-decoration: underline;
+}
+.lan{
+    color: #fff;
+}
+.lan span:hover{
+    background-color: #3d4044;
+}
+.lan span i{
+    margin-right: 5px;
+}
+.lan span{
+    margin-top: -5px;
+    margin-left: 140px;
+    border: 1px solid white;
+    padding: 10px 40px 10px 20px;
+}
+.f-logo img{
+    width: 90px;
+    margin-left: 25px;
+    margin-top: 60px;
+    
+}
+.f-copy{
+    margin-top: 220px;
+    margin-left: 90px;
+}
+.f-copy:hover{
+    background-color: #1c1d1f;
+}
+.f-copy span{
+    color: white;
+    margin: 0;
+    border: none;
+    font-size: 13px;
+}
+/* Footer Section End */

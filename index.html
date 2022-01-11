@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Udemy Clone</title>
+      <!-- FontAwesome cdn -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+      <!-- Google fonts link -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+      <!-- Bootstrap css link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="responsivecss/responsive.css">
+   </head>
+   <body>
+
+   <!-- Offer Time Section Start -->
+      <section class="offer-time-section clearfix">
+          <div class="container">
+       <div class="row">
+           <div class="col-lg-11">
+            <div class="offer-time-text float-left">
+                <p><strong>New Year’s Sale |</strong>Courses from ₹385 — plus our free Starter Pack. Ends Jan. 6.
+                    <a href="#">Learn More</a></p>
+                   <span>!day left!</span>
+               </div>
+           </div>
+           <div class="col-lg-1">
+               <div class="cross-btn"><i class="fas fa-times"></i></div>
+           </div>
+       </div>
+          </div>
+      </section>
+<!-- Offer Time Section End -->
+
+
+
+<!-- Menubar Section Section Start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light main-header">
+    <div class="container-fluid">
+       <a class="navbar-brand" href="index.html">
+      <img class="logo" src="imgs/logo/ulogo.png" alt="">
+       </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto our-main-menu">
+            <li class="nav-item active">
+             Catagories
+            </li>
+            <li class="nav-item">
+             <input type="text" placeholder="Search for anything">
+            </li>
+            <li class="nav-item lhs">
+               Udemy Business
+               </li>
+               <li class="nav-item lhs">
+                Tech on Udemy
+                </li>
+                <li class="nav-item lhs">
+                   <span><i class="fas fa-cart-plus"></i></span>
+                    </li>
+                    <li class="nav-item lhs">
+                       <div class="log-in-btn">
+                        <a href="">Log in</a>
+                       </div>
+                        </li>
+                  <li class="nav-item lhs">
+                           <div class="log-in-btn">
+                            <a href="">Sign up</a>
+                           </div>
+                            </li>
+                    <li class="nav-item lhs">
+                            
+                  <span class="border-icon"><i class="fas fa-globe"></i></span>                
+               </li>
+          </ul>
+       </div>
+    </div>
+ </nav>
+ <!-- Menubar Section End -->
+
+
+
+ <!-- Slider Start -->
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+      <div class="box">
+         <h2>Free New Year’s Starter Pack</h2>
+         <p>
+            Last day to buy a course for less and get free mini-lessons on finances, career goals, yoga, and more. <a href="#">See details.</a></p>
+      </div>
+       <img src="imgs/slider/1.jpg" class="d-block w-100" alt="...">
+     </div>
+     <div class="carousel-item">
+      <div class="box">
+         <h2>Free New Year’s Starter Pack</h2>
+         <p>
+            Last day to buy a course for less and get free mini-lessons on finances, career goals, yoga, and more. <a href="#">See details.</a></p>
+      </div>
+       <img src="imgs/slider/2.jpg" class="d-block w-100" alt="...">
+     </div>
+    
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon prev-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+     <span class="carousel-control-next-icon prev-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+   </button>
+ </div>
+ <!-- Slider Section End -->
+
+
+
+<!-- Broad Section Start -->
+<section class="broad-section">
+   <div class="container-fluid">
+<div class="row">
+   <div class="broad-title">
+      <h2>A broad selection of courses</h2>
+      <p class="lead">Choose from 183,000 online video courses with new additions published every month</p>
+   </div>
+<div class="courses-tab-sec">
+   <ul class="nav mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Python</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Exel</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Web Development</a>
+      </li>
+      <li class="nav-item" role="presentation">
+         <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-js" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Javascript</a>
+       </li>
+       <li class="nav-item" role="presentation">
+         <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-ds" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Data Science</a>
+       </li>
+       <li class="nav-item" role="presentation">
+         <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-aws" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">AWS Certification</a>
+       </li>
+       <li class="nav-item" role="presentation">
+         <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-drawing" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Drawing</a>
+       </li>
+    </ul>
+</div>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+         <div class="row">
+            <div class="col-8">
+               <div class="broad-tab-content">
+                  <h4>Expand your career opportunities with Python</h4>
+                  <p>
+                     Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...
+                  </p>
+                  <a href="#">Explore Python</a>
+               </div>
+            </div>
+            <div class="col-4"></div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+         <div class="row">
+            <div class="col-8">
+               <div class="broad-tab-content">
+                  <h3>Analyze and visualize data with Excel</h3>
+                  <p>
+                    Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn
+                  </p>
+                  <a href="#">Explore Exel</a>
+               </div>
+            </div>
+            <div class="col-4"></div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+         <div class="row">
+            <div class="col-8">
+               <div class="broad-tab-content">
+                  <h3>Build websites and applications with Web Development</h3>
+                  <p>
+                     The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.
+                  </p>
+                  <a href="#">Explore Web Development</a>
+               </div>
+            </div>
+            <div class="col-4"></div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="pills-js" role="tabpanel" aria-labelledby="pills-contact-tab">
+         <div class="row">
+            <div class="col-8">
+               <div class="broad-tab-content">
+                  <h3>Grow your software development skills with JavaScript</h3>
+                  <p>
+                     JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build
+                  </p>
+                  <a href="#">Explore Javascript</a>
+               </div>
+            </div>
+            <div class="col-4"></div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="pills-ds" role="tabpanel" aria-labelledby="pills-contact-tab">
+         <div class="row">
+            <div class="col-8">
+               <div class="broad-tab-content">
+                  <h3>Lead data-driven decisions with Data Science</h3>
+                  <p>
+                      Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you’re into research, statistics, and analytics.
+                  </p>
+                  <a href="#">Explore Data Science</a>
+               </div>
+            </div>
+            <div class="col-4"></div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="pills-aws" role="tabpanel" aria-labelledby="pills-contact-tab">
+         <div class="row">
+            <div class="col-8">
+               <div class="broad-tab-content">
+                  <h3>Become an expert in cloud computing with AWS Certification</h3>
+                  <p>
+                     Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to
+                  </p>
+                  <a href="#">Explore AWS</a>
+               </div>
+            </div>
+            <div class="col-4"></div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="pills-drawing" role="tabpanel" aria-labelledby="pills-contact-tab">
+         <div class="row">
+            <div class="col-8">
+               <div class="broad-tab-content">
+                  <h3>  Expand your creative skillset with Drawing</h3>
+                  <p>
+                   Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area
+                  </p>
+                  <a href="#">Explore Drawing</a>
+               </div>
+            </div>
+            <div class="col-4"></div>
+         </div>
+      </div>
+
+
+
+<!-- Course-1 5 start -->
+<div class="row">
+   <div class="container-fluid">
+<div class="all d-flex">
+   <div class="course-item">
+      <img class="img-fluid" src="imgs/course/01.jpg" alt="">
+      <h6>Learn Python Programming Masterclass</h6>
+      <span class="d-block name-span">Dr. Angela Yu</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(85,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+    </div>
+    <div class="course-item">
+      <img class="img-fluid" src="imgs/course/02.jpg" alt="">
+      <h6>Learn Python Programming Masterclass</h6>
+      <span class="d-block name-span">Kirill Eremenko</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(85,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+      <span class="d-block seller-span"><a href="#">Bestseller</a></span>
+    </div>
+    <div class="course-item">
+      <img class="img-fluid" src="imgs/course/03.jpg" alt="">
+      <h6>Learn Python Programming Masterclass</h6>
+      <span class="d-block name-span">Jose Portilla</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(85,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+    </div>
+    <div class="course-item">
+      <img class="img-fluid" src="imgs/course/04.jpg" alt="">
+      <h6>Learn Python Programming Masterclass</h6>
+      <span class="d-block name-span">Dr. Angela Yu</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(85,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+      <span class="d-block seller-span"><a href="#">Bestseller</a></span>
+    </div>
+    <div class="course-item">
+      <div class="course-item-img">
+         <img class="img-fluid" src="imgs/course/05.jpg" alt="">
+      </div>
+      <h6>Learn Python Programming Masterclass</h6>
+      <span class="d-block name-span">Tim Buchalka</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(85,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+    </div>
+</div>
+</div>
+</div>
+<!-- Course-1 5 end -->
+
+</div><!-- tab-content div end -->
+
+</div><!-- container-fluid div end -->
+</section>
+<!-- Broad Section End -->
+
+
+
+<!-- Course-2 5 start -->
+<div class="row">
+   <div class="container-fluid">
+      <div class="all-2-h">
+         <h4>Students are viewing</h4>
+      </div>
+    
+<div class="all all-2 d-flex">
+   <div class="course-item">
+      <img class="img-fluid" src="imgs/course2/01.jpg" alt="">
+      <h6>The Complete 2022 Web Development Bootcamp</h6>
+      <span class="d-block name-span">Dr. Angela Yu</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(163,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+    </div>
+    <div class="course-item">
+      <img class="img-fluid" src="imgs/course2/02.jpg" alt="">
+      <h6>JavaScript Algorithms and Data Structures Masterclass</h6>
+      <span class="d-block name-span">Colt Steele</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(185,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+      <span class="d-block seller-span"><a href="#">Bestseller</a></span>
+    </div>
+    <div class="course-item">
+      <img class="img-fluid" src="imgs/course2/03.jpg" alt="">
+      <h6>The Complete JavaScript 2022 Course From Zero to...</h6>
+      <span class="d-block name-span">Jonas Schmedtmann</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(85,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+    </div>
+    <div class="course-item">
+      <img class="img-fluid" src="imgs/course2/04.jpg" alt="">
+      <h6>AWS Certified Solutions 2022 Architect Associate...</h6>
+      <span class="d-block name-span">Stephane Maarek | AWS Certified</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(5,103)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+      <span class="d-block seller-span"><a href="#">Bestseller</a></span>
+    </div>
+    <div class="course-item">
+      <div class="course-item-img">
+         <img class="img-fluid" src="imgs/course2/05.jpg" alt="">
+      </div>
+      <h6>Microsoft Excel - Excel from Beginner to Advanced</h6>
+      <span class="d-block name-span">Kyle Pew | Office Newb</span>
+      <span class="d-block">
+         
+         <ul>
+            <li>4.6</li>
+            <li><a href="#"><i class="fas fa-star"></i></a></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star-half-alt"></i></li>
+            <li>(675,140)</li>
+         </ul>
+         </span>
+      <span class="d-block price-span">₹385 <del>₹3,499</del></span>
+    </div>
+</div>
+</div>
+</div>
+<!-- Course-2 5 End -->
+
+
+<!-- Catagory Section Start -->
+<section class="cat-section">
+   <div class="container-fluid">
+      <h4 class="cat-heading">Top categories</h4>
+<div class="row">
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/01.jpg" alt="">
+         <span>Design</span>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/02.jpg" alt="">
+         <span>Development</span>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/03.jpg" alt="">
+         <span>Marketing</span>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/04.jpg" alt="">
+         <span>IT and Software</span>
+      </div>
+   </div>
+   </div>
+</div>
+   </div>
+</section>
+<!-- Catagory Section End -->
+
+
+
+<!-- cat-section2 Section Start -->
+<section class="cat-section2">
+   <div class="container-fluid">
+   
+<div class="row">
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/05.jpg" alt="">
+         <span>Personal Development</span>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/06.jpg" alt="">
+         <span>Business</span>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/07.jpg" alt="">
+         <span>Photography</span>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="cat-item">
+         <img src="imgs/cata/08.jpg" alt="">
+         <span>Music</span>
+      </div>
+</div>
+   </div>
+</section>
+<!-- cat-section2 Section Start -->
+
+
+
+<!-- Featured Topics Section Start -->
+<section class="featured-topics">
+   <div class="container-fluid">
+      <h4 class="topics-heading">Featured topics by category</h4>
+   <div class="row">
+   <div class="col-lg-3">
+    <div class="featured-topics">
+      <h5>Development</h5>
+      <span class="course-name"><a href="#">Python</a></span>
+      <p>33,126,975 students</p>
+      <span class="course-name"><a href="#">Web Development</a>
+         <p>33,126,975 students</p></span>
+      <span class="course-name"><a href="#">Machine Learning</a></span>
+         <p>33,126,975 students</p>
+         <div class="more-topics-btn">
+            <a href="#">Explore more topics</a>
+         </div>
+    </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="featured-topics">
+         <h5>Development</h5>
+         <span class="course-name"><a href="#">Financial Analysis</a></span>
+         <p>33,126,975 students</p>
+         <span class="course-name"><a href="#">SQL</a>
+            <p>33,126,975 students</p></span>
+         <span class="course-name"><a href="#">PHP</a></span>
+            <p>33,126,975 students</p>
+       </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="featured-topics">
+         <h5>Development</h5>
+         <span class="course-name"><a href="#">AWS Certification</a></span>
+         <p>33,126,975 students</p>
+         <span class="course-name"><a href="#">Ethical Security</a>
+            <p>33,126,975 students</p></span>
+         <span class="course-name"><a href="#">Cyber Security</a></span>
+            <p>33,126,975 students</p>
+       </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="featured-topics">
+         <h5>Development</h5>
+         <span class="course-name"><a href="#">Photoshop</a></span>
+         <p>33,126,975 students</p>
+         <span class="course-name"><a href="#">Graphic Design</a>
+            <p>33,126,975 students</p></span>
+         <span class="course-name"><a href="#">Drawing</a></span>
+            <p>33,126,975 students</p>
+       </div>
+      </div>
+   </div>
+</div>
+</section>
+<!-- Featured Topics Section Start -->
+
+
+
+<!-- Become-instr Section Start -->
+<section class="become-instr">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-1"></div>
+         <div class="col-lg-5">
+            <div class="become-instr-img">
+               <img src="imgs/instructor-2x-v3.jpg" alt="">
+            </div>
+         </div>
+         <div class="col-lg-5 d-flex">
+              <div class="become-instr-content">
+               <h2>Become an instructor</h2>
+               <p>Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
+               <a href="#">Start teaching today</a>
+            </div>
+         </div>
+         <div class="col-lg-1"></div>
+      </div>
+   </div>
+</section>
+<!-- Become-instr Section End -->
+
+
+
+
+<!-- Section Start -->
+<!-- #a435f0 -->
+<section class="companies-section">
+<div class="container">
+   <h3>Trusted by companies of all sizes</h3>
+   <div class="companies-logo">
+      <ul>
+         <li><a href="#"><img src="imgs/companies/nasdaq-dark.svg" alt=""></a></li>
+         <li><a href="#"><img src="imgs/companies/volkswagen-dark.svg" alt=""></a></li>
+         <li><a href="#"><img src="imgs/companies/box-dark.svg" alt=""></a></li>
+         <li><a href="#"><img src="imgs/companies/netflix-dark.svg" alt=""></a></li>
+         <li><a href="#"><img src="imgs/companies/eventbrite-dark.svg" alt=""></a></li>
+      </ul>
+   </div>
+</div>
+</section>
+<!-- Section End -->
+
+
+
+
+<!-- Become-instr Section Start -->
+<section class="become-instr">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-1"></div>
+         <div class="col-lg-5">
+            <div class="become-instr-content udemy-b-img">
+               <h2><img src="imgs/logo-ub.svg" alt=""></h2>
+               <p>Get unlimited access to 6,000+ of Udemy’s top courses for your team. Learn and improve skills across business, tech, design, and more.</p>
+               <a href="#">Get Udemy Business</a>
+            </div>
+         </div>
+         <div class="col-lg-5 d-flex">
+            <div class="become-instr-img">
+               <img src="imgs/ub-2x-v3.jpg" alt="">
+            </div>
+         </div>
+         <div class="col-lg-1"></div>
+      </div>
+   </div>
+</section>
+<!-- Become-instr Section End -->
+
+
+
+<!-- Become-instr Section Start -->
+<section class="become-instr become-instr-3">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-1"></div>
+         <div class="col-lg-5">
+            <div class="become-instr-img">
+               <img src="imgs/transform-2x-v3.jpg" alt="">
+            </div>
+         </div>
+         <div class="col-lg-5 d-flex">
+              <div class="become-instr-content">
+               <h2>Transform your life through education</h2>
+               <p>Learners around the world are launching new careers, advancing in their fields, and enriching their lives.</p>
+               <a href="#">Find out how</a>
+            </div>
+         </div>
+         <div class="col-lg-1"></div>
+      </div>
+   </div>
+</section>
+<!-- Become-instr Section End -->
+
+
+
+<!-- Footer Section Start -->
+<section class="footer-section">
+   <div class="container-fluid">
+<div class="row">
+   <div class="col-lg-3">
+      <div class="footer-list">
+         <ul>
+            <li><a href="#">Udemy Business</a></li>
+            <li><a href="#">Teach on Udemy</a></li>
+            <li><a href="#">Get the app</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+         </ul>
+         <div class="f-logo">
+            <a href=""><img src="imgs/logo/logo-udemy-inverted.svg" alt=""></a>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="footer-list">
+         <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help and Support</a></li>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Investors</a></li>
+         </ul>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="footer-list">
+         <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Cookie settings</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Accessibility statement</a></li>
+         </ul>
+      </div>
+   </div>
+   <div class="col-lg-3">
+      <div class="footer-list">
+        <div class="lan">
+         <span><i class="fas fa-globe"></i>English</span>
+        <div class="f-copy">
+         <span>© 2022 Udemy, Inc.</span>
+        </div>
+        </div>
+      </div>
+   </div>
+</div>
+
+   </div>
+</section>
+<!-- Footer Section End -->
+
+
+      <!-- Bundle js  of Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
